@@ -15,4 +15,5 @@ public class Person {
     private StringBuilder description;
     private Sex typeSearch;
     private BotState botState;
+
 }

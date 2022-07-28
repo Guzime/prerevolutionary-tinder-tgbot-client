@@ -7,7 +7,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class PrerevolutionaryTinderTgbotClientApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(PrerevolutionaryTinderTgbotClientApplication.class, args);
-	}
+		try {
+			SpringApplication.run(PrerevolutionaryTinderTgbotClientApplication.class, args);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 
+	}
 }
