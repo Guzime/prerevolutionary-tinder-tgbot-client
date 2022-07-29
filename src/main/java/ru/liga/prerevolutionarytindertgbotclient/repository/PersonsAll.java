@@ -17,4 +17,5 @@ public class PersonsAll {
             new Person(4L, Sex.FEMALE, "Мария", new StringBuilder().append("интеллектуал"), Sex.MALE, BotState.DEF),
             new Person(5L, Sex.FEMALE, "Оксана", new StringBuilder().append("интеллектуал"), Sex.MALE, BotState.DEF)
             );
+
 }

@@ -1,5 +1,4 @@
 <configuration debug="true">
-
     <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
         <encoder>
             <charset>UTF-8</charset>
@@ -32,5 +31,4 @@
         <appender-ref ref="STDOUT"/>
         <appender-ref ref="FILE"/>
     </logger>
-
 </configuration>

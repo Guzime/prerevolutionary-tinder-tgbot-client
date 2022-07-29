@@ -26,7 +26,7 @@ public class HandlerCallback {
         if (botState.equals(BotState.SET_SEX)) {
             personCache.setNewState(userId, BotState.SET_PROFILE_INFO);
             personCache.setNewSex(userId, Sex.valueOf(param[0]));
-            return SendMessage.builder().chatId(message.getChatId().toString()).text("Поздравляю " + param[1] + ", теперь введите вашу инфу и описание").build();
+            return SendMessage.builder().chatId(message.getChatId().toString()).text("Поздравляю " + param[1] + ", теперь введите вашу инфромацию и описание").build();
         }
 
         if (botState.equals(BotState.SET_TYPE_SEARCH)) {

@@ -12,4 +12,5 @@ public enum ButtonsCaptions {
     public String getCaption() {
         return caption;
     }
+
 }

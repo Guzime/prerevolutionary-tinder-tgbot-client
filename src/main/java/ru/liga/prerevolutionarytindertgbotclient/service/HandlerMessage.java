@@ -31,7 +31,7 @@ public class HandlerMessage {
         Long userId = message.getFrom().getId();
 
 
-        log.info("New message from User:{}. userId: {}, chatId: {}, with text: {}",
+        log.info("New message from user:{}. userId: {}, chatId: {}, with text: {}",
                 message.getFrom().getUserName(), userId, message.getChatId(), message.getText());
 
         switch (messageText) {

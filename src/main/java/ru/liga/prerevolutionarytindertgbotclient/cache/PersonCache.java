@@ -21,6 +21,11 @@ public class PersonCache {
 
     private List<Person> persons = new ArrayList<>();
 
+    /**
+     *
+     * @param userId
+     * @param botState
+     */
     public void addPersonCache(Long userId, BotState botState) {
         if (!containsKey(userId)) {
             log.info("Add to cache user: " + userId);

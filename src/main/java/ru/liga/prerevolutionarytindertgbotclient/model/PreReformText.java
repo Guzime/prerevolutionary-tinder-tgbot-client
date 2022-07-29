@@ -23,4 +23,5 @@ public class PreReformText implements Serializable {
                 "text='" + text + '\'' +
                 '}';
     }
+
 }

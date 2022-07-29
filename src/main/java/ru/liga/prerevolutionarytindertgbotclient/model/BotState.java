@@ -1,5 +1,8 @@
 package ru.liga.prerevolutionarytindertgbotclient.model;
 
+/**
+ *
+ */
 public enum BotState {
     DEF,
     SET_SEX,

@@ -26,4 +26,5 @@ public class TranslateService {
 
         return responseEntity;
     }
+
 }

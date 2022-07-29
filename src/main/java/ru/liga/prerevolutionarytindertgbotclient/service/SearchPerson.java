@@ -15,4 +15,5 @@ public class SearchPerson {
     public List<Person> getPersonSex(Sex typeSearch) {
         return PersonsAll.listPersons.stream().filter(person -> person.getTypeSearch().equals(typeSearch)).collect(Collectors.toList());
     }
+
 }

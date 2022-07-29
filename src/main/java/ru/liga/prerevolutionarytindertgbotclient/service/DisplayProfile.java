@@ -21,8 +21,8 @@ public class DisplayProfile {
     @SneakyThrows
     String display(Long userId) {
         Person person = personCache.getUsersCurrentPerson(userId);
-        return "✅Ваша анкета!\n\nИмя:" + "\n" + translateService.translate(person.getName()).getText() + "\n" +
-                "Описание:" + "\n" + translateService.translate(person.getDescription().toString()).getText() + "\n";
+        return "✅Ваша анкета! \n\nИмя:" + "\n" + translateService.translate(person.getName()).getText() + "\n" +
+                "Описание: " + "\n" + translateService.translate(person.getDescription().toString()).getText() + "\n";
     }
 
     @SneakyThrows
